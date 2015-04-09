@@ -1,0 +1,30 @@
+ mysql workbench https://ubuntulife.wordpress.com/2008/10/07/instalando-mysql-workbench-513-alpha-para-linux/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Actualizamos los repositorios:
+
+$ sudo apt-get update
+
+– Instalamos mysql workbench:
+
+sudo apt-get install mysql-workbench
+
+– Lo ejecutamos:
+
+$ mysql-workbench
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+wine http://www.configurarubuntu.com/2015/02/instalar-aplicaciones-de-windows-en.html
+
+Paso 1: Desde una terminal escribimos lo siguiente:
+
+sudo add-apt-repository ppa:ubuntu-wine/ppa
+
+Paso 2: Actualizamos el listado de repositorios de software:
+
+sudo apt-get update 
+
+Paso 3: Instalamos el paquete Wine
+
+sudo apt-get install wine1.7
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
