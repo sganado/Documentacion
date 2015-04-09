@@ -1,0 +1,30 @@
+Instalando Git:https://librosweb.es/libro/pro_git/capitulo_1/instalando_git.html
+
+apt-get install git-core
+
+Tu identidad:https://librosweb.es/libro/pro_git/capitulo_1/configurando_git_por_primera_vez.html
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+Generando tu clave pública SSH:
+ssh-keygen -t rsa -C "sganado@caldentech.com"
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+ssh-add /home/silvana/.ssh/id_rsa
+
+clonar repositorio:
+git clone git@github.com:sganado/Documentacion.git
+
+var mi estado:
+git status
+
+Commitear:
+
+git init
+git add wine-mysqlWorkbech.txt 
+git commit -m "primer archivo"
+git push  origin master
+
+copiar un archivo ala carpeta donde estas parada
+cp /home/silvana/Escritorio/wine-mysqlWorkbech.txt  ./
